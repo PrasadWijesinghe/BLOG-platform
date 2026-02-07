@@ -6,8 +6,8 @@ Backend system for a Blog Management Platform built with Node.js, Express, and M
 
 ### Prerequisites
 
-- Node.js (v18 or later)
-- MySQL (local, e.g., XAMPP)
+- Node.js
+- MySQL 
 - npm
 
 ### Installation
@@ -20,7 +20,7 @@ npm install
 
 Create a `.env` file in the project root using `.env.example`.
 
-Example for local MySQL (XAMPP):
+Example for local MySQL :
 
 ```env
 PORT=5000
@@ -33,7 +33,7 @@ JWT_SECRET=secret123
 
 ### Database Setup
 
-1. Start MySQL (XAMPP Control Panel).
+1. Start MySQL.
 2. Create a database named `blog_db`.
 3. Import the provided `schema.sql` file to create tables.
 
