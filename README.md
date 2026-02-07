@@ -79,11 +79,6 @@ The API will be available at:
 - `PUT /blogs/:id` — Update blog (Owner or Admin only)
 - `DELETE /blogs/:id` — Delete blog (Admin only)
 
-Protected routes require:
-
-```http
-Authorization: Bearer <JWT_TOKEN>
-```
 
 ## 4. Database Schema Explanation
 
